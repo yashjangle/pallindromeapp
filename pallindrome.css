@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .container {
+    width: 70%;
+    display: flex;
+    margin: 9rem auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 0.5rem solid rgba(255, 217, 0, 0.505);
+    padding: 8rem 3rem;
+  }
+  
+  .heading {
+    color: #ffd700;
+    font-size: 3.5rem;
+    margin-bottom: 9rem;
+    font-weight: 800;
+  }
+  
+  .bday-label {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffd700;
+    font-weight: 600;
+  }
+  
+  #bday-input {
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-bottom: 6rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .submit-btn {
+    padding: 7px 12px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #ffd700;
+    font-weight: 600;
+  }
+  
+  *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.5rem rgba(255, 217, 0, 0.505);
+  }
